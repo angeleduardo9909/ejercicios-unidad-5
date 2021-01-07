@@ -1,0 +1,95 @@
+public class Deposito {    
+
+    //Campos de la clase
+    private float diametro;
+    private float altura;
+    private String idDeposito;
+
+    //Constructor sin parámetros auxiliar
+    public Deposito () { 
+        this(0,0,"");            } 
+
+
+    //Constructor de la clase que pide los parámetros necesarios
+    public Deposito (float valor_diametro, float valor_altura, String valor_idDeposito) {
+        if (valor_diametro > 0 && valor_altura > 0) {            
+            diametro = valor_diametro;
+            altura = valor_altura;
+            idDeposito = valor_idDeposito;
+        } else {
+            diametro = 10;
+            altura = 5;
+            idDeposito = "000";
+            System.out.println ("Creado depósito con valores por defecto diametro 10 metros altura 5 metros id 000" );
+        }   } 
+
+    public void setValoresDeposito (String valor_idDeposito, float valor_diametro, float valor_altura) {
+        idDeposito = valor_idDeposito;
+        diametro = valor_diametro;
+        altura = valor_altura;
+        if (idDeposito !="" && valor_diametro > 0 && valor_altura > 0) {
+        } else {
+            System.out.println ("Valores no admisibles. No se han establecido valores para el depósito");
+            //Deposito (0.0f, 0.0f, ""); 
+            idDeposito = "";
+            diametro = 0;
+            altura = 0;
+        }     } 
+    public float getDiametro () { return diametro; } 
+    public float getAltura () { return altura; } 
+    public String getIdDeposito () { return idDeposito; } 
+    public float valorCapacidad () { 
+        float capacidad;
+        float pi = 3.1416f; 
+        int suma = 3+4;
+        double divi = 3/4;
+        int multi = 3*4;
+        suma = 2.7 + 3, cont = cont + 1,
+ edad >= 5,
+ suma != 0,
+        capacidad = pi * (diametro/2) * (diametro/2) * altura;
+        return capacidad;
+    }    
+
+} 
+
+if venta == realizada: 
+    print "la compra fue un exito"
+else: 
+    print "Esperar"
+
+if venta == 200: 
+    print "Pago en efectivo" 
+
+if total_compra > 100: 
+    tasa_descuento = 10 
+    importe_descuento = total_compra * tasa_descuento / 100 
+    importe_a_pagar = total_compra – importe_descuento
+
+while venta <= 2000: 
+    print "la venta no participa",  
+   
+
+while True:
+    nombre = raw_input("Indique su nombre: ")
+    if nombre:
+        break
+
+participantes = ['Jose', 'pepe', 'rosa', 'sandra'] 
+for nombre in mi_lista: 
+    print nombre
+
+
+uniforme_color = ('amarillo', 'rosa', 'verde', 'azul') 
+for color in mi_tupla: 
+    print color
+
+try:
+	pass
+except Exceptioneoreoer :
+	raise e
+
+while True:
+     try:
+     except ValueError:
+         
